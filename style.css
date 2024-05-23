@@ -1,0 +1,41 @@
+div.Schoolheading {
+    display: flex;
+    border: 2px solid yellow;
+    padding: 4px;
+    justify-content: center;
+    margin: 4px;
+    color: brown;
+}
+
+.navbar {
+    border: 2px solid brown;
+    list-style: none;
+
+}
+
+.List>ul a {
+    text-decoration: none;
+}
+
+.navbar-container li {
+    display: flex;
+    /* flex-direction:column; */
+    margin-right: 4rem;
+    justify-content: right;
+
+}
+
+.navbar-container li ul {
+    font-size: 18px;
+
+}
+
+.navbar-container li ul a {
+    color: brown;
+}
+
+.List >ul a:hover {
+    text-transform: uppercase;
+    display: block;
+   
+}
