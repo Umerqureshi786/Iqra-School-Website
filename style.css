@@ -1,27 +1,56 @@
-div.Schoolheading {
+div.logo {
+    /* border: 1px solid black; */
     display: flex;
-    border: 2px solid yellow;
-    padding: 4px;
     justify-content: center;
-    margin: 4px;
-    color: brown;
+    /* display: block; */
+    /* display: inline; */
+
+
+
 }
+
+.logoimage {
+    width: 10em;
+    height: 10em;
+
+}
+
 
 .navbar {
-    border: 2px solid brown;
+    /* border: 1px solid brown; */
     list-style: none;
+    margin-top: 8px;
 
 }
+
+div.Schoolheading {
+    display: flex;
+    /* border: 2px solid yellow; */
+    padding: 4px;
+    justify-content: center;
+    /* margin-top: 36px; */
+    color: brown;
+    margin-bottom: 0px;
+}
+
+
+div.Schoolheading>h1 {
+    margin-bottom: 0px;
+
+}
+
 
 .List>ul a {
     text-decoration: none;
+    font-weight: bold;
+    /* margin-top: 2px; */
+    margin-left: 6rem;
 }
 
 .navbar-container li {
     display: flex;
-    /* flex-direction:column; */
     margin-right: 4rem;
-    justify-content: right;
+    justify-content: center;
 
 }
 
@@ -34,8 +63,22 @@ div.Schoolheading {
     color: brown;
 }
 
-.List >ul a:hover {
-    text-transform: uppercase;
-    display: block;
-   
+
+div.parentparagraph {
+    width: 100%;
+    text-align: center;
+    /* border: 2px solid brown; */
+}
+
+
+div.Iqraparagraph {
+    /* border: 1px solid green; */
+    width: 40rem;
+    margin-left: 32rem;
+    text-align: center;
+    margin: auto;
+}
+
+div.Iqraparagraph >p{
+    margin-top: 8px;
 }
