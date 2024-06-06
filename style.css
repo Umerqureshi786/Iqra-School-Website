@@ -1,3 +1,8 @@
+/* #wholebody{
+    background-color: rgb(250, 245, 171);
+} */
+
+
 div.logo {
     /* border: 1px solid black; */
     display: flex;
@@ -139,4 +144,60 @@ div.Iqraparagraph >p{
 
 .slider .slide:nth-child(3) {
     left: 200%;
+}
+
+
+
+.MixContent{
+    background-color: antiquewhite;
+    height: 36rem;
+    display:flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+
+.MixImage >img{
+    margin-top: 6rem;
+    /* height: 24rem; */
+    width: 30rem;
+    /* border: 2px solid firebrick; */
+}
+
+.content{
+    /* border: 2px solid black; */
+    width: 24rem;
+    height:16rem;
+    margin-left: -4rem;
+    margin-top: 18rem;
+    background-color: rgb(240, 240, 234);
+
+}
+
+
+.content > h2{
+    margin-left: 2rem;
+    color: brown;
+
+}
+
+.content > p{
+    margin-left: 2rem;
+
+}
+
+#footercontainer{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+}
+
+#footercontainer>h2{
+    color: white;
+    display:inline ;
+    border: 1px solid fuchsia;
+}
+
+.heading{
+    margin-left: 6rem;
 }
